@@ -22,7 +22,7 @@ for obs in raw_data:
     final_data.append([obs['Confirmed'], obs['Deaths'], obs['Recovered'], obs['Active'], obs['Date']])
 
 final_data.insert(0, ['Confirmados', 'Obitos', 'Recuperados', 'Ativos', 'Data'])
-#print(final_data)
+print(final_data)
 
 CONFIRMADOS = 0
 OBITOS = 1
