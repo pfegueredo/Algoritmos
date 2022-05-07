@@ -1,0 +1,62 @@
+using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.Collections;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
+using System.Text;
+using System;
+
+class Solution {
+
+        static void plusMinus(int[] arr) {
+        int negativo;
+        int positivo;
+        int zero;
+        int num; 
+        double PropPositivo;
+        double PropNegativo;
+        double PropZero;
+        PropNegativo = 0;
+        PropPositivo = 0;
+        PropZero = 0;
+        num = arr.Length;
+        negativo = 0;
+        positivo = 0;
+        zero = 0; 
+        
+        for(int i = 0; i < num; i++)
+        {
+            if (arr[i] < 0)
+                negativo = negativo + 1; 
+            else if (arr[i] > 0)
+                positivo = positivo + 1;
+            if (arr[i] == 0) 
+                zero++;
+        }
+
+       if (negativo > 0) 
+             PropPositivo = (double)positivo/(double)num;
+       if (positivo > 0) 
+             PropNegativo = (double)negativo/(double)num;
+        if (zero > 0) 
+            PropZero = ((double)zero/(double)num);
+        
+        
+        Console.WriteLine("{0:N6}",PropPositivo);
+        Console.WriteLine("{0:N6}",PropNegativo);
+        Console.WriteLine("{0:N6}",PropZero);
+        }
+
+    static void Main(string[] args) {
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+        plusMinus(arr);
+    }
+}

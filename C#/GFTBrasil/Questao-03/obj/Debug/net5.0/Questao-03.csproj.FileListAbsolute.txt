@@ -1,0 +1,16 @@
+C:\TUDO\Projetos\GFTBrasil\Questao-03\bin\Debug\net5.0\Questao-03.exe
+C:\TUDO\Projetos\GFTBrasil\Questao-03\bin\Debug\net5.0\Questao-03.deps.json
+C:\TUDO\Projetos\GFTBrasil\Questao-03\bin\Debug\net5.0\Questao-03.runtimeconfig.json
+C:\TUDO\Projetos\GFTBrasil\Questao-03\bin\Debug\net5.0\Questao-03.runtimeconfig.dev.json
+C:\TUDO\Projetos\GFTBrasil\Questao-03\bin\Debug\net5.0\Questao-03.dll
+C:\TUDO\Projetos\GFTBrasil\Questao-03\bin\Debug\net5.0\ref\Questao-03.dll
+C:\TUDO\Projetos\GFTBrasil\Questao-03\bin\Debug\net5.0\Questao-03.pdb
+C:\TUDO\Projetos\GFTBrasil\Questao-03\obj\Debug\net5.0\Questao-03.csprojAssemblyReference.cache
+C:\TUDO\Projetos\GFTBrasil\Questao-03\obj\Debug\net5.0\Questao-03.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUDO\Projetos\GFTBrasil\Questao-03\obj\Debug\net5.0\Questao-03.AssemblyInfoInputs.cache
+C:\TUDO\Projetos\GFTBrasil\Questao-03\obj\Debug\net5.0\Questao-03.AssemblyInfo.cs
+C:\TUDO\Projetos\GFTBrasil\Questao-03\obj\Debug\net5.0\Questao-03.csproj.CoreCompileInputs.cache
+C:\TUDO\Projetos\GFTBrasil\Questao-03\obj\Debug\net5.0\Questao-03.dll
+C:\TUDO\Projetos\GFTBrasil\Questao-03\obj\Debug\net5.0\ref\Questao-03.dll
+C:\TUDO\Projetos\GFTBrasil\Questao-03\obj\Debug\net5.0\Questao-03.pdb
+C:\TUDO\Projetos\GFTBrasil\Questao-03\obj\Debug\net5.0\Questao-03.genruntimeconfig.cache
