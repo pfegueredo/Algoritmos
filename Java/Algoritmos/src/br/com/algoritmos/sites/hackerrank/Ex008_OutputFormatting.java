@@ -1,3 +1,6 @@
+package br.com.algoritmos.sites.hackerrank;
+
+
 /*
 Java's System.out.printf function can be used to print formatted output. The purpose of this exercise is to test your understanding of formatting output using printf.
 
@@ -34,7 +37,7 @@ Each String is left-justified with trailing whitespace through the first  charac
 
 import java.util.Scanner;
 
-public class Solution {
+public class Ex008_OutputFormatting {
 
     public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);

@@ -1,3 +1,5 @@
+package br.com.algoritmos.sites.hackerrank;
+
 /*
 Neste desafio, testamos seu conhecimento sobre o uso de declarações condicionais if-else para automatizar os processos de tomada de decisão. Uma instrução if-else tem o seguinte fluxo lógico:
 
@@ -13,15 +15,9 @@ Se n é par e maior que 20, imprema Not Weird
 */
 
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
-public class Solution {
+public class Ex001_IfElse {
 
     private static final Scanner scanner = new Scanner(System.in);
 

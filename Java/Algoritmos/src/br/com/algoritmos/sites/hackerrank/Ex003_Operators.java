@@ -1,3 +1,5 @@
+package br.com.algoritmos.sites.hackerrank;
+
 /*
 Tarefa
 Dado o preço da refeição (custo base de uma refeição), porcentagem da gorjeta (a porcentagem do preço da refeição adicionada como gorjeta) e porcentagem do imposto (a porcentagem do preço da refeição adicionada como imposto) para uma refeição, localize e imprima o custo total da refeição. Arredonde o resultado para o inteiro mais próximo.
@@ -21,7 +23,6 @@ Nota: Certifique-se de usar valores precisos para seus cálculos, ou você pode 
 */
 
 import java.io.*;
-import java.math.*;
 
 class Result {
 
@@ -32,7 +33,7 @@ class Result {
     }
 }
 
-public class Solution {
+public class Ex003_Operators {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 

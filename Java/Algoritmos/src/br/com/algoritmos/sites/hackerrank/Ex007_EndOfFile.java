@@ -1,3 +1,6 @@
+package br.com.algoritmos.sites.hackerrank;
+
+
 /*
 The challenge here is to read  lines of input until you reach EOF, then number and print all  lines of content.
 
@@ -24,10 +27,9 @@ Sample Output
 */
 
 
-import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class Ex007_EndOfFile {
 
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);

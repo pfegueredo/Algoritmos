@@ -1,3 +1,6 @@
+package br.com.algoritmos.sites.hackerrank;
+
+
 /*
 You are given an integer n, you have to convert it into a string.
 
@@ -8,7 +11,9 @@ Please complete the partially completed code in the editor. If your code success
 
 import java.util.*;
 import java.security.*;
-public class Solution {
+
+
+public class Ex005_intToString {
  public static void main(String[] args) {
 
   DoNotTerminate.forbidExit();

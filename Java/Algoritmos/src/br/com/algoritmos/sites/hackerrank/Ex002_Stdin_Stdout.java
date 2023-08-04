@@ -1,3 +1,5 @@
+package br.com.algoritmos.sites.hackerrank;
+
 /*
 Neste desafio, você deve ler um integer , um double e uma String de stdin e imprimir os valores de acordo com as instruções na seção Output Format abaixo. Para tornar o problema um pouco mais fácil, uma parte do código é fornecida para você no editor.
 
@@ -25,7 +27,7 @@ Nota: Se você usar o método nextLine() imediatamente após o método nextInt()
 
 import java.util.Scanner;
 
-public class Solution {
+public class Ex002_Stdin_Stdout {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -37,5 +39,7 @@ public class Solution {
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
         System.out.println("Int: " + i);
+        scan.close();
     }
 }
+

@@ -1,12 +1,12 @@
-package br.com.algoritmos;
+package br.com.algoritmos.listas.lista1;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Ex002 {
+public class Ex08_FahrenheitParaCelsius {
 	/**
 	 * @author Paulo Fegueredo
-	 * @param descricao: Ex002 – Converter temperatura em graus Fahrenheit para Ceusius
+	 * @param  Converter temperatura graus Fahrenheit para Ceusius
 	 */
 	public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class Ex002 {
 		double celsius = (fahrenheit - 32) / 1.8;
 		DecimalFormat formato = new DecimalFormat("#.###");
 		
-		System.out.println("O valor de " + fahrenheit + " em Ceusius é: " + formato.format(celsius));
+		System.out.println("O valor de " + fahrenheit + " fahrenheits em Celsius Ã©: " + formato.format(celsius));
 		leitura.close();
 	}
 

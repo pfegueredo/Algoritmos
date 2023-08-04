@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author Paulo Fegueredo
- * @param Descrição: Calcular o consumo de combustível por Km.
+ * @param Calcular o consumo de combustï¿½vel por Km.
  */
 public class Ex004 {
 
@@ -20,7 +20,7 @@ public class Ex004 {
 		System.out.println("Digite a distancia percorrida: ");
 		distancia = leitora.nextDouble();
 		consumo = distancia / litros;
-		System.out.println("O consumo de combustivel por km é: " + consumo);
+		System.out.println("O consumo de combustivel por km Ã©: " + consumo + "");
 		leitora.close();
 	}
 }
