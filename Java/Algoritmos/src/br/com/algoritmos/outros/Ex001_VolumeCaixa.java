@@ -1,10 +1,10 @@
-package br.com.algoritmos;
+package br.com.algoritmos.outros;
 
 import java.util.Scanner;
 
 // Calculo do Volume de uma caixa retangular
 
-public class Ex001 {
+public class Ex001_VolumeCaixa {
 
 	public static void main(String[] args) {
 	
@@ -23,7 +23,7 @@ public class Ex001 {
 		
 		volume = altura * largura * profundidade;
 
-		System.out.println("O volume dessa caixa retangular é: "+ volume);
+		System.out.println("O volume dessa caixa retangular ï¿½: "+ volume);
 		leitura.close();
 	}
 

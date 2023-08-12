@@ -1,0 +1,7 @@
+C:\Users\paulo\source\repos\AumentoSalario\AumentoSalario\bin\Debug\AumentoSalario.exe.config
+C:\Users\paulo\source\repos\AumentoSalario\AumentoSalario\bin\Debug\AumentoSalario.exe
+C:\Users\paulo\source\repos\AumentoSalario\AumentoSalario\bin\Debug\AumentoSalario.pdb
+C:\Users\paulo\source\repos\AumentoSalario\AumentoSalario\obj\Debug\AumentoSalario.csprojAssemblyReference.cache
+C:\Users\paulo\source\repos\AumentoSalario\AumentoSalario\obj\Debug\AumentoSalario.csproj.CoreCompileInputs.cache
+C:\Users\paulo\source\repos\AumentoSalario\AumentoSalario\obj\Debug\AumentoSalario.exe
+C:\Users\paulo\source\repos\AumentoSalario\AumentoSalario\obj\Debug\AumentoSalario.pdb

@@ -1,4 +1,4 @@
-package br.com.algoritmos;
+package br.com.algoritmos.outros;
 
 import java.util.Scanner;
 

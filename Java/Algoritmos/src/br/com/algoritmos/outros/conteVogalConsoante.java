@@ -35,7 +35,7 @@ string helloWorld(string name) {
 
 */
 
-package br.com.algoritmos;
+package br.com.algoritmos.outros;
 
 public class conteVogalConsoante {
 	public static void main(String[] args) {

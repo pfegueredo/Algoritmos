@@ -1,10 +1,10 @@
-package br.com.algoritmos;
+package br.com.algoritmos.outros;
 
 import java.util.Scanner;
 
 /**
  * @author Paulo Fegueredo
- * @param Descrição: Calcula o quadrado da diferença entre números.
+ * @param Descriï¿½ï¿½o: Calcula o quadrado da diferenï¿½a entre nï¿½meros.
  */
 public class Ex005 {
 
@@ -21,7 +21,7 @@ public class Ex005 {
 		System.out.println("Digite o segundo numero: ");
 		num2 = leitora.nextDouble();
 		quadrado = Math.pow((num2 - num1), 2);
-		System.out.println("O quadrado da diferenla entre "+ num1 + " e "+ num2 + " é " + quadrado);
+		System.out.println("O quadrado da diferenla entre "+ num1 + " e "+ num2 + " ï¿½ " + quadrado);
 		
 		leitora.close();
 	}

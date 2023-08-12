@@ -1,0 +1,16 @@
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\obj\Debug\net5.0\ValidadorSenhas.csprojAssemblyReference.cache
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\obj\Debug\net5.0\ValidadorSenhas.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\obj\Debug\net5.0\ValidadorSenhas.AssemblyInfoInputs.cache
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\obj\Debug\net5.0\ValidadorSenhas.AssemblyInfo.cs
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\obj\Debug\net5.0\ValidadorSenhas.csproj.CoreCompileInputs.cache
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\bin\Debug\net5.0\ValidadorSenhas.exe
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\bin\Debug\net5.0\ValidadorSenhas.deps.json
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\bin\Debug\net5.0\ValidadorSenhas.runtimeconfig.json
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\bin\Debug\net5.0\ValidadorSenhas.runtimeconfig.dev.json
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\bin\Debug\net5.0\ValidadorSenhas.dll
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\bin\Debug\net5.0\ref\ValidadorSenhas.dll
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\bin\Debug\net5.0\ValidadorSenhas.pdb
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\obj\Debug\net5.0\ValidadorSenhas.dll
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\obj\Debug\net5.0\ref\ValidadorSenhas.dll
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\obj\Debug\net5.0\ValidadorSenhas.pdb
+C:\TUDO\Projetos\DIO-Desafios\Desafios\C Sharp\06. Solução de problemas com .NET\ValidadorSenhas\obj\Debug\net5.0\ValidadorSenhas.genruntimeconfig.cache

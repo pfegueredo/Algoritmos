@@ -1,0 +1,43 @@
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+class MinhaClasse {
+
+  public static void Main (string[] args) {
+    var totalDeCasosDeTeste = int.Parse(Console.ReadLine());
+    int y;
+    y = 0;
+    List<string> novaLista = new List<string>();
+    string[] listaCompras;
+    listaCompras = null;
+
+    while (y < totalDeCasosDeTeste) 
+    {
+      
+      listaCompras = Console.ReadLine().ToLower().Split(' ');
+      
+      if (listaCompras.Length < 1000) 
+      {
+      Array.Sort(listaCompras);
+      string[] nlistaCompras = listaCompras.Distinct().ToArray();
+      string ItensSemRepetidos = string.Join(' ', nlistaCompras);
+      novaLista.Add(ItensSemRepetidos);
+      }
+      else
+      {
+        return;
+      }
+      
+      y++;
+    }
+
+    foreach(string x in novaLista) 
+      {
+        Console.WriteLine(x);
+      }
+
+  }
+}

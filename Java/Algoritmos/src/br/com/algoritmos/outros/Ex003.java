@@ -1,11 +1,11 @@
-package br.com.algoritmos;
+package br.com.algoritmos.outros;
 
 import java.util.Scanner;
 
 public class Ex003 {
 	/**
 	 * @author Paulo Fegueredo
-	 * @param Descrição: Calcula volume de um cilindro
+	 * @param Descriï¿½ï¿½o: Calcula volume de um cilindro
 	 */
 	public static void main(String[] args) {
 		
@@ -16,7 +16,7 @@ public class Ex003 {
 		System.out.println("Digite o raio do cilindro: ");
 		double raio = leitor.nextDouble();
 		double volume = altura * (Math.pow(raio, 2)) * 3.1;
-		System.out.println("O volume do cilindo é: " + volume);
+		System.out.println("O volume do cilindo ï¿½: " + volume);
 		leitor.close();
 	}
 

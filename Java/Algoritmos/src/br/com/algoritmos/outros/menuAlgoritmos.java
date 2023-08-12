@@ -1,4 +1,4 @@
-package br.com.algoritmos;
+package br.com.algoritmos.outros;
 
 import java.util.Scanner;
 
@@ -19,8 +19,8 @@ public class menuAlgoritmos {
 		int valor = opcao.nextInt();
 		switch (valor) {
 			case 1:
-				Ex001 ex001 = new Ex001();
-				ex001.getClass();
+				Ex001_VolumeCaixa ex001_VolumeCaixa = new Ex001_VolumeCaixa();
+				ex001_VolumeCaixa.getClass();
 				System.out.println(valor);
 				
 		}
