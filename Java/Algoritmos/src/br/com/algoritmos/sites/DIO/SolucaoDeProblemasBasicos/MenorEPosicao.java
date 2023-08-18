@@ -1,4 +1,7 @@
+package br.com.algoritmos.sites.DIO.SolucaoDeProblemasBasicos;
+
 /*
+
 Desafio Bootcamp Inter
 Desenvolva um código que leia um valor E. Este E será o tamanho de um vetor X[E]. A seguir, leia cada um dos valores de X, encontre o menor elemento deste vetor e a sua posição dentro do vetor, mostrando esta informação.
 
@@ -19,7 +22,7 @@ Posicao: 4
 import java.io.IOException;
 import java.util.Scanner;
 
-public class MinhaSegundaClasse {
+public class MenorEPosicao {
 
     public static void main(String[] args) throws IOException {
         Scanner leitor = new Scanner(System.in);

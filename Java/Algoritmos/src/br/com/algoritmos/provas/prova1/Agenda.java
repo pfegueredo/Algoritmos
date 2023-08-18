@@ -15,10 +15,12 @@ import java.util.Scanner;
 
 public class Agenda {
 
+	private static ConnectionFactory conexao;
+	
 	public static void main(String[] args) throws SQLException {
 
-		ConnectionFactory conexao = new ConnectionFactory();
-
+//		ConnectionFactory conexao = new ConnectionFactory();
+		conexao.getConnection();
 
 		List<Contato> contatos = new ArrayList<>();
 		int opcao = 3;
@@ -29,7 +31,8 @@ public class Agenda {
 			opcao = entrada.nextInt();	
 
 			if(opcao == 1) {
-				listarContatos(contatos);
+				//listarContatos(contatos);
+				ContatoRepository.buscarTodos();
 			} else if (opcao == 2) {
 				contatos.add(cadastrarContato());
 			} else if (opcao == 3) {
@@ -95,7 +98,9 @@ public class Agenda {
 
 
 		Contato contato = new Contato(id, nome, telefone, email);
-
+		
+		ContatoRepository.save(contato);
+		
 		System.out.println("Cadastro salvo com sucesso\n");
 		return contato;
 
