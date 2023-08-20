@@ -1,13 +1,16 @@
-import psycopg2
+#import psycopg2
 
-try:
-    conexao = psycopg2.connect(database = "postgres", 
-                           host = "localhost",
-                           user = "postgres",
-                           password = "paulo83",
-                           port = "5432")
-except:
-    print('Ocorreu um erro ao tentar conectar com o BD')
+
+
+
+#try:
+#    conexao = psycopg2.connect(database = "postgres", 
+#                           host = "localhost",
+#                           user = "postgres",
+#                           password = "paulo83",
+#                           port = "5432")
+#except:
+#    print('Ocorreu um erro ao tentar conectar com o BD')
 
 class CalculaIR:
     def __init__(self, salario, ir, desconto):

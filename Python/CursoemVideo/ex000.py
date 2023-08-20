@@ -9,5 +9,4 @@ opcao = input()
 switcher = (opcao)
 {
     1: olamundo()
-    
 }

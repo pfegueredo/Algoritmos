@@ -1,0 +1,18 @@
+import psycopg2
+
+class Conexao():
+    def __init__(self):
+        database = "postgres", 
+        host = "localhost",
+        user = "postgres",
+        password = "paulo83",
+        port = "5432"
+
+def conectar(self):
+    try:
+        conexao = psycopg2.connect(self.database, self.host, self.user, self.password, self.port)
+    except:
+        print('Ocorreu um erro ao tentar conectar com o BD')
+
+def teste(self):
+    print('Funcionou')
