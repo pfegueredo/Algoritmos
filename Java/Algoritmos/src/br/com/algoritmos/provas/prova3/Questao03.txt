@@ -1,0 +1,8 @@
+03) Identificar o que o programa a seguir executa para o usuário, identificar e sublinhar o
+possível (is) erro (s) descrevendo (os) na continuação da linha.
+
+3.1 - No Button_Click_2, na variável calculo, foi colocado um igual "=", ao invés do sinal de menos "-".
+
+3.2 - No Button_Click_3, o ToString, está digitado em minúsculo.
+
+3.3 - No Button_Click_4, a variável tb_resultado está faltando um o.
