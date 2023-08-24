@@ -19,7 +19,7 @@ try:
         case '*':
             resultado = num1*num2
         case _:
-            print: 'O operador digitado foi inválido'
+            print('O operador digitado foi inválido')
 
 except:
     print('Ocorreu um erro')
