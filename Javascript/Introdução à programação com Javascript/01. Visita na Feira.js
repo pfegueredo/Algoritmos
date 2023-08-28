@@ -1,6 +1,9 @@
 /*
 Desafio
-Você está na feira com a sua sacola e parou em uma banca. O feirante lhe entregou pimentões amarelos e vermelhos. Agora iremos somar os pimetões amarelos e vermelhos para descobrir o total de pimentões na sacola.  Você receberá 2 inteiros que devem ser lidos e armazenados nas variáveis A (pimentões amarelos) e B (pimentões vermelhos). Faça a soma de A e B atribuindo o seu resultado na variável X (total de pimentões). Apresente X como descrito na mensagem de exemplo abaixo. Não apresente outra mensagem além da mensagem especificada.
+Você está na feira com a sua sacola e parou em uma banca. 
+O feirante lhe entregou pimentões amarelos e vermelhos. 
+Agora iremos somar os pimetões amarelos e vermelhos para descobrir o total de pimentões na sacola.  
+Você receberá 2 inteiros que devem ser lidos e armazenados nas variáveis A (pimentões amarelos) e B (pimentões vermelhos). Faça a soma de A e B atribuindo o seu resultado na variável X (total de pimentões). Apresente X como descrito na mensagem de exemplo abaixo. Não apresente outra mensagem além da mensagem especificada.
 
 Entrada
 A entrada contém 2 valores inteiros, separados por um espaço.
@@ -14,9 +17,20 @@ Exemplos de Entrada	Exemplos de Saída
 
 X = 18
 */
+var readline = require('readline');
+var leitor = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
-et line = gets().split(" ");
-let A = parseInt(line[0]);
-let B = parseInt(line[1]);
-let total = A + B;
-console.log("X = " + total);
+let resp;
+leitor.question('Digite os valores separados por virgula: ', function(gets) {
+    resp = gets
+    console.log(resp)
+    let line = resp.split(" ");
+    let A = parseInt(line[0]);
+    let B = parseInt(line[1]);
+    let total = A + B;
+    console.log("X = " + total);
+    leitor.close();
+});
